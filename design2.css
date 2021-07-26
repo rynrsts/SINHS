@@ -1,0 +1,293 @@
+
+body {
+	font-family: candara;
+	font-size: 17px;
+	letter-spacing: 0.4px;
+	margin: auto;
+}
+
+.header {
+	background-color: #4CAF50;
+	height: 130px;
+	text-align: center;
+}
+
+.logo {
+	height: 80px;
+	margin: auto;
+	position: relative;
+	top: 25px;
+}
+
+.navbar {
+	background-color: #E9EBEE;
+	border: 0px;
+	border-bottom: 1px solid #DDDFE2;
+	height: 60px;
+}
+
+.navmenu {
+	border-left: 1px solid #DDDFE2;
+	float: left;
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+	width: 160px;
+}
+
+.navbutton {
+	background-color: #E9EBEE;
+	border: 0px;
+	cursor: pointer;
+	font-family: candara;
+	font-size: 20px;
+	font-weight: bold;
+	height: 60px;
+	width: 100%;
+}
+
+.navbutton:hover {
+	background-color: #C1C1C1;
+}
+
+.copyright {
+	background-color: #E9EBEE;
+	border: 0px;
+	border-top: 1px solid #DDDFE2;
+	color: #2F3F4F;
+	padding: 20px;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.alltitle {
+	height: 80px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Home */
+
+#sinhsbg {
+	background-image: url('SINHS.jpg');
+	background-position: center top;
+	background-repeat: repeat-x;
+	background-size: 100%;
+	height: 500px;
+}
+
+#slogan {
+	color: white;
+	font-size: 305%;
+	font-weight: bold;
+	height: 200px;
+	position: absolute;
+	right: 3%;
+	text-align: right;
+	top: 280px;
+}
+
+#divs {
+	border-spacing: 20px;
+	display: table;
+	margin: auto;
+	margin-top: -220px;
+	overflow: auto;
+}
+
+.lmr {
+	border-radius: 5px;
+	color: white;
+	display: table-cell;
+	font-size: 18px;
+	padding: 20px;
+	text-align: justify;
+	vertical-align: top;
+	width: 350px;
+}
+
+#left {
+	background-color: #00BF6F;
+}
+
+#middle {
+	background-color: #671E75;
+}
+
+#right {
+	background-color: #05467E;
+}
+
+.title {
+	text-align: center;
+}
+
+.gallerylist {
+	margin-left: -20px;
+}
+
+.noline {
+	text-decoration: none;
+}
+
+/* 1200px Screen */
+
+@media only screen and (max-width: 1200px) {
+
+	#sinhsbg {
+		background-size: 320%;
+		height: 1200px;
+	}
+
+	#slogan {
+		font-size: 270%;
+		top: 260px;
+	}
+
+	#divs {
+		margin-top: -950px;
+	}
+
+	.lmr { 
+		display: block;
+		width: 380px;
+	}
+
+	#left {
+		background-color: #00BF6F;
+		margin-bottom: 30px;
+	}
+
+	#middle {
+		background-color: #671E75;
+		margin-bottom: 30px;
+	}
+
+}
+
+/* Gallery */
+
+#gallery {
+	border-spacing: 20px;
+	display: table;
+	margin: auto;
+	overflow: auto;
+}
+
+.polaroid {
+	border: 1px solid black;
+	display: table-cell;
+	vertical-align: top;
+	width: 295px;
+}
+
+#annex {
+	background-image: url('Annex/1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#brigada {
+	background-image: url('Brigada/1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#principal {
+	background-image: url('Principal/2.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 130%;
+}
+
+#sabayan {
+	background-image: url('Sabayan/19.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/* 1200px Screen */
+
+@media only screen and (max-width: 1200px) {
+	.polaroid { 
+		display: block;
+		margin-bottom: 30px;
+		width: 380px;
+	}
+}
+
+.polaroid2 {
+	border: 1px solid black;
+	height: 220px;
+	vertical-align: top;
+	width: 295px;
+}
+
+.polaroid3 {
+	height: 220px;
+	width: 295px;
+}
+
+.polaroid4 {
+	border: 1px solid black;
+	height: 255px;
+	vertical-align: top;
+	width: 295px;
+}
+
+.picture {
+	margin: 15px;
+	height: 190px;
+	width: 90%;
+}
+
+.picture1 {
+	margin: 15px;
+	height: 220px;
+	width: 90%;
+}
+
+.caption {
+	font-size: 16px;
+	height: 35px;
+	text-align: center;
+	vertical-align: top;
+}
+
+/* About Us */
+
+#divabout {
+	height: 400px;
+	margin: auto;
+	width: 1000px;
+}
+
+#picleft {
+	background-color: #EA4335;
+	background-image: url('About SINHS.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 92%;
+	border-radius: 5px;
+	float: left;
+	height: 410px;
+	width: 500px;
+}
+
+#aboutright {
+	background-color: #EA4335;
+	border-radius: 5px;
+	color: white;
+	float: right;
+	height: 370px;
+	padding: 20px;
+	text-align: justify;
+	width: 440px;
+}

@@ -1,0 +1,80 @@
+
+.header {
+	background-color: #4CAF50;
+	height: 130px;
+}
+
+.logo {
+	background-image: url('Logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 70%;
+	height: 120px;
+	margin: auto;
+	position: relative;
+	top: 5px;
+	width: 400px;
+}
+
+.thelogo {
+	height: 35px;
+	margin-top: -10px;
+}
+
+.mynav {
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.mynav:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.editdelete {
+	color: black;
+}
+
+.editdelete:hover {
+	text-decoration: none;
+}
+
+.tbledit {
+	margin: auto;
+}
+
+.txtedit {
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 350px;
+}
+
+.btndelete {
+	background-color: #4CAF50;
+	border: 2px solid #4CAF50;
+	border-radius: 2px;
+	color: white;
+	cursor: pointer;
+	height: 40px;
+	width: 120px;
+}
+
+.btndelete:hover {
+	background-color: white;
+	border: 2px solid #4CAF50;
+	color: #4CAF50;
+}
+
+.titlearea {
+	height: 40px;
+	width: 100%;
+	resize: none;
+	text-align: center;
+}
+.txtarea {
+	height: 200px;
+	width: 100%;
+	resize: none;
+}

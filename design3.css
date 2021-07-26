@@ -1,0 +1,213 @@
+
+body {
+	font-family: candara;
+	font-size: 17px;
+	letter-spacing: 0.4px;
+	margin: auto;
+}
+
+.header {
+	background-color: #4CAF50;
+	height: 130px;
+	text-align: center;
+}
+
+.logo {
+	height: 80px;
+	margin: auto;
+	position: relative;
+	top: 25px;
+}
+
+.navbar {
+	background-color: #E9EBEE;
+	border: 0px;
+	border-bottom: 1px solid #DDDFE2;
+	height: 60px;
+}
+
+.navmenu {
+	border-left: 1px solid #DDDFE2;
+	float: left;
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+	width: 160px;
+}
+
+.navbutton {
+	background-color: #E9EBEE;
+	border: 0px;
+	cursor: pointer;
+	font-family: candara;
+	font-size: 20px;
+	font-weight: bold;
+	height: 60px;
+	width: 100%;
+}
+
+.navbutton:hover {
+	background-color: #C1C1C1;
+}
+
+.storage {
+	display: none;
+	position: fixed;
+	visibility: hidden;
+}
+
+.copyright {
+	background-color: #E9EBEE;
+	border: 0px;
+	border-top: 1px solid #DDDFE2;
+	color: #2F3F4F;
+	padding: 20px;
+	text-align: center;
+}
+
+.alltitle {
+	height: 80px;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Contact Us */
+
+#divcontact {
+	background-color: #05467E;
+	border-radius: 5px;
+	margin: auto;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	width: 1000px;
+}
+
+#contact {
+	display: table;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.visit {
+	display: table-cell;
+	color: white;
+	margin: auto;
+	width: 450px;
+}
+
+#note {
+	font-size: 17px;
+}
+
+.icon {
+	height: 60px;
+	text-align: center;
+	width: 60px;
+}
+
+.picicon {
+	height: 45px;
+	width: 45px;
+}
+
+.vis {
+	font-size: 20px;
+}
+
+#yourmessage {
+	height: 100px;
+	resize: none;
+	width: 430px;
+}
+
+#btnmessage {
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 2px;
+	color: #05467E;
+	cursor: pointer;
+	font-family: candara;
+	font-size: 17px;
+	font-weight: bold;
+	height: 50px;
+	width: 140px;
+}
+
+#btnmessage:hover {
+	background-color: #05467E;
+	border: 2px solid white;
+	color: white;
+}
+
+/* 1200px Screen */
+
+@media only screen and (max-width: 1200px) {
+
+	#divcontact {
+		width: 600px;
+	}
+
+	.visit {
+		display: block;
+	}
+
+	#getintouch {
+		margin-bottom: 30px;
+	}
+
+}
+
+/* Reservation */
+
+#divreserve {
+	background-color: #671E75;
+	border: 1px solid #671E75;
+	border-radius: 5px;
+	box-shadow: 15px 15px 30px #9F9F9F; 
+	margin: auto;
+	width: 580px;
+}
+
+#reserve {
+	color: white;
+	font-size: 17px;
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: 35px;
+}
+
+.right {
+	text-align: right;
+}
+
+
+#numMonths, #numDays, #numYears {
+	border: 0px;
+	border-radius: 1px;
+	padding: 10;
+}
+
+#btnreserve {
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 2px;
+	color: #05467E;
+	cursor: pointer;
+	font-family: candara;
+	font-size: 17px;
+	font-weight: bold;
+	height: 50px;
+	width: 140px;
+}
+
+#btnreserve:hover {
+	background-color: #671E75;
+	border: 2px solid white;
+	color: white;
+}
